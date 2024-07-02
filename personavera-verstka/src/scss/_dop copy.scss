@@ -1,0 +1,42 @@
+// при панеле админа с верху...
+.admin-bar .site-header__btn {
+  top: var(--wp-admin--admin-bar--height);
+}
+
+body.admin-bar.active .lincks {
+  bottom: var(--wp-admin--admin-bar--height);
+}
+
+// для валидации формы и уведомлений
+.wpcf7 {
+  position: relative;
+}
+
+.footer__form .wpcf7-not-valid[type=email],
+.footer__form .wpcf7-not-valid[type=text] {
+  border: 1px solid #B51501;
+}
+
+.wpcf7-not-valid-tip {
+  display: none;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  margin: 0;
+}
+
+.wpcf7-response-output {
+  position: absolute;
+  text-align: center;
+  bottom: -58px;
+  max-width: 100%;
+  left: 8px;
+}
+
+.wpcf7-spinner {
+  margin: 0;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+}

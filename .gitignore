@@ -132,13 +132,13 @@ dist
 # исключить
 dist/
 node_modules/
-version.json
-package-lock.json
+gulp/version.json
+/package-lock.json
 
 src/zpass/
 src/images/
-files/files/
-files/video/
-src/fonts/
+files/files
+src/files
+src/fonts
 src/scss/fonts.scss
 *.code-workspace

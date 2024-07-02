@@ -132,7 +132,7 @@ dist
 # исключить
 dist/
 node_modules/
-gulp/version.json
+version.json
 package-lock.json
 
 src/zpass/

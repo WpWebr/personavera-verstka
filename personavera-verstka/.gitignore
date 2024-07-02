@@ -130,15 +130,15 @@ dist
 .pnp.*
 
 # исключить
-/dist
-/node_modules
-/gulp/version.json
-/package-lock.json
+dist/
+node_modules/
+gulp/version.json
+package-lock.json
 
-/src/zpass
-/src/images
-/files/files
-/files/video
-/src/fonts
-/src/scss/fonts.scss
+src/zpass/
+src/images/
+files/files
+files
+fonts
+src/scss/fonts.scss
 *.code-workspace
